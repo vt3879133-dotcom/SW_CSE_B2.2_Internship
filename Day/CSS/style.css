@@ -588,3 +588,35 @@ footer {
         font-size: 12px;
     }
 }
+/* Dark mode button */
+#themeButton {
+    padding: 10px 16px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6c4ab6;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Dark theme */
+body.dark-mode {
+    background-color: #171323;
+    color: #ffffff;
+}
+
+/* Keep text readable in dark mode */
+body.dark-mode nav {
+    background-color: #241c35;
+}
+
+body.dark-mode a {
+    color: #c9b5ff;
+}
+
+body.dark-mode section,
+body.dark-mode .card {
+    background-color: #241c35;
+    color: #ffffff;
+}
